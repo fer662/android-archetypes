@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <array name="environment_name">
+        <item>Staging</item>>
+        <item>Production</item>>
+        <item>Localhost</item>>
+    </array>
+	<array name="environment_base_url">
+        <item>http://iservice.equinox.com/2.0.9/MyEQService.svc/</item>>
+        <item>http://10.193.190.36:5000</item>>
+        <item>http://10.193.190.36:5000</item>>
+    </array>
+</resources>

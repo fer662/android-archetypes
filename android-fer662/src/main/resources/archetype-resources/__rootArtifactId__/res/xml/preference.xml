@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="applicationPreference"
+    >
+    <ListPreference
+            android:key="current_environment"
+            android:defaultValue="Staging"
+            
+            android:summary="Environment"
+            android:entries="@array/environment_name"
+            android:entryValues="@array/environment_name"
+    />                  
+</PreferenceScreen>
