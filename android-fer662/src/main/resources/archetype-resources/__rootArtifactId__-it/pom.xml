@@ -9,7 +9,6 @@
 		<version>${version}</version>
 	</parent>
 
-	<groupId>${groupId}</groupId>
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
 	<packaging>apk</packaging>
