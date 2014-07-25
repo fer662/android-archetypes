@@ -10,7 +10,6 @@
 	</parent>
 
 	<artifactId>${artifactId}</artifactId>
-	<version>${version}</version>
 	<packaging>apk</packaging>
 	<name>${artifactId} - Integration tests</name>
 

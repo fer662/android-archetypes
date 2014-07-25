@@ -3,7 +3,7 @@
 
   <groupId>com.fer662.android.archetypes</groupId>
   <artifactId>android-skeleton</artifactId>
-  <version>1.1.3</version>
+  <version>1.1.4</version>
   <name>Fer662 Android Archetype - android-skeleton</name>
   <description>Creates a skeleton for an Android application,
     instrumentation tests and ready-to-publish application on releases.</description>
