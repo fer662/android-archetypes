@@ -5,7 +5,7 @@ import android.content.Context;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
-import ${package}.${artifactId}Application;
+import ${package}.Application;
 import ${package}.PreferencesManager;
 import ${package}.R;
 
@@ -25,7 +25,7 @@ public class Environment {
 		if (allEnvironments == null) {
 			allEnvironments = new ArrayList<Environment>();
 			
-			Context ctx = ${rootArtifactId}Application.sharedApplicationContext();
+			Context ctx = Application.sharedApplicationContext();
 			
 			String[] environmentNames = ctx.getResources().getStringArray(R.array.environment_name);
 			String[] environmentBaseURLs = ctx.getResources().getStringArray(R.array.environment_base_url);

@@ -1,13 +1,12 @@
 package ${package};
 
-import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.preference.PreferenceManager;
 
 import com.crittercism.app.Crittercism;
 
-public class ${artifactId}Application extends Application {
+public class Application extends android.app.Application {
 
 	private static Context applicationContext;
 	private static Application application;
